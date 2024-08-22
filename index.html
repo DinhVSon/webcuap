@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <!-- main -->
+    <section id="main">
+        <!-- navigation -->
+        <nav>
+            <!-- logo -->
+            <a href="#" class="logo">ファット</a>
+            <!-- menu -->
+            <input type="checkbox" id="check">
+            <ul class="menu">
+                <li>
+                    <label for="check" class="close-menu">
+                      <i class="fa-solid fa-xmark"></i>
+                    </label>
+                  </li> 
+                <li><a href="#main" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#learning">Learning</a></li>
+                <li><a href="#hobby">Hobby</a></li>
+                <li><a href="#contact-button">Contact</a></li>              
+            </ul>
+            <label for="check" class="open-menu">
+                <i class="fa-solid fa-bars"></i>
+              </label>
+        </nav>
+        <!-- name -->
+        <div class="name">
+            <!-- hello -->
+            <p>Hello</p>
+            <!-- name -->
+            <h1>I'm Phat</h1>
+            <!-- detail -->
+            <p class="detail">I'm at college, studying computers and business.I'm at the beginner stage in learning CSS, JS. This is my first website was built with HTML and CSS.</p>
+            <!-- button -->
+            <!-- <a href="#" class="btn">BUTTON</a> -->
+        </div>
+        <!-- social -->
+        <div class="social-media">
+            <a target="_blank" title="Facebook" href="https://www.facebook.com/paddy.sun.7923">
+                <i class="auth-form__socials-icon fa-brands fa-square-facebook"></i></i>
+            </a>
+            <a target="_blank" title="Instagram" href="https://www.instagram.com/lephat.16/">
+                <i class="auth-form__socials-icon fa-brands fa-instagram"></i></i>
+            </a>
+            <a target="_blank" title="Google+" href="http://myaccount.google.com">
+                <i class="auth-form__socials-icon fa-brands fa-google"></i></i>
+            </a>
+        </div>
+        <!-- arrow (mui ten) -->
+        <div class="arrow">
+         </div>
+         <!-- about section -->
+    </section>
+
+    <!-- about -->
+    <section id="about">
+        <!-- text -->
+        <div class="about-text">
+            <input type="checkbox" id="show">
+            <h1>About me</h1>
+            <!-- <h2>I'm Vietnamese, I'm living Japan as a foreign student.</h2> -->
+            <p>I graduated from University a few years ago in VietNam. And now, I'm studying a second career in a completely different field. 
+            </p>
+            <div id="education">
+                <div class="education-heading">
+                    <h1>Education</h1>
+                    <p>There is my academic background</p>
+                </div>
+                <!-- container -->
+                <div class="education-container">
+                    <div class="education-content">
+                        <div class="education-content_info">
+                            <span class="year"><i class="fa-regular fa-calendar-days"></i>2014-2018</span>
+                            <h3>Student at University</h3>
+                            <!-- <p>Nothing</p> -->
+                        </div>
+                        <img src="./img/pexels-goumbik-574069.jpg" alt="">
+                    </div>
+                    
+                    <div class="education-content">
+                        <div class="education-content_info">
+                            <span class="year"><i class="fa-regular fa-calendar-days"></i>2018-2020</span>
+                            <h3>Worked at school</h3>
+                            <!-- <p>Nothing</p> -->
+                        </div>
+                        <img src="./img/pexels-pixabay-267495.jpg" alt="">
+                    </div>
+        
+                    <div class="education-content">
+                        <div class="education-content_info">
+                            <span class="year"><i class="fa-regular fa-calendar-days"></i>2022-2024</span>
+                            <h3>Student at Japanese School</h3>
+                            <!-- <p>Nothing</p> -->
+                        </div>
+                        <img src="./img/pexels-enginakyurt-1498273.jpg" alt="">
+                    </div>
+
+                    <div class="education-content">
+                        <div class="education-content_info">
+                            <span class="year"><i class="fa-regular fa-calendar-days"></i>2024-2026</span>
+                            <h3>Student at IT Setouchi College</h3>
+                            <!-- <p>Nothing</p> -->
+                        </div>
+                        <img src="./img/pexels-goumbik-574069.jpg" alt="">
+                    </div>
+                </div>
+                <label for="show">Show less</label>
+                <!-- <div id="scroll-edu">
+                    <span style="width: 100%;"><i class="fa-solid fa-angles-down" onclick="location.href='./#learning'"></i></span>
+                </div> -->
+            </div>
+            <!-- button more -->
+            <label for="show">Read more</label>
+        </div>
+        <!-- about-model-img -->
+        <div class="about-model">
+            <img src="img/スクリーンショット 2024-08-04 065203.png" alt="">
+        </div>
+        
+    </section>
+        <div id="scroll-edu2">
+            <span style="width: 100%;"><i class="fa-solid fa-angles-down" onclick="location.href='./#learning'"></i></span>
+        </div>
+    <!-- learning -->
+    <section id="learning">
+        <!--learning-heading -->
+        <div class="learning-heading">
+            <h1>Learning</h1>
+            <p> I started learning web design and development</p>
+        </div>
+        <!-- learning container -->
+        <div class="learning-container">
+            <!-- box html -->
+            <div class="learning-container_box">
+                <!-- html img -->
+                <div class="learning-container_img">
+                    <!-- type -->
+                    <div class="learning-type">HTML</div>
+                    <!-- img -->
+                    <img src="./img/file-7084006_640.png" alt="">
+                </div>
+                <!-- html text -->
+                <div class="learning-container_text">
+                    <a href="#">I’m currently learning some basics of web page’s language called HTML at IT College.Learning HTML basics is an important first step in my web development journey and an essential skill for front- and back-end developers.</a>
+                </div>
+            </div>
+
+            <!-- box css -->
+            <div class="learning-container_box">
+                <!-- css img -->
+                <div class="learning-container_img">
+                    <!-- type -->
+                    <div class="learning-type">CSS</div>
+                    <!-- img -->
+                    <img src="./img/file-7084005_640.png" alt="">
+                </div>
+                <!-- css text -->
+                <div class="learning-container_text">
+                    <a href="#">I’m just finishing up the module on CSS layouts — grid & flexbox, and there was a lot to learn on this topic still!</a>
+                </div>
+            </div>
+
+            <!-- box JavaScript -->
+            <div class="learning-container_box">
+                <!-- js img -->
+                <div class="learning-container_img">
+                    <!-- type -->
+                    <div class="learning-type">JavaScript</div>
+                    <!-- img -->
+                    <img src="./img/file-7084007_640.png" alt="">
+                </div>
+                <!-- js text -->
+                <div class="learning-container_text">
+                    <a href="#">I am learning JavaScript and getting slowly familiar with it.</a>
+                </div>
+            </div>
+        </div>
+        <span><i class="fa-solid fa-angles-down" onclick="location.href='./#hobby'"></i></span>
+    </section>
+
+    <!-- hobby -->
+    <section id="hobby">
+        <!-- heading hobby -->
+        <h1 class="hobby-heading">Hobby</h1>
+        <!-- hobby container -->
+        <div class="hobby-container">
+            <!-- box 1 -->
+            <div class="hobby-box">
+                <!-- text -->
+                <label for="show-traveling">
+                    <div class="text-overlay">
+                        <h1>Traveling</h1>
+                        <p>See more picture</p>
+                        <!-- <label for="show-traveling">Read more</label> -->
+                    </div>
+                </label>
+                <!-- img -->
+                 <img src="./img/moto-1541333_640.png" alt="hobby">
+            </div>
+
+            <!-- box 2 -->
+            <div class="hobby-box">
+                <!-- text -->
+                <div class="text-overlay">
+                    <h1>Relaxing</h1>
+                    <p>It is a marvelous and peaceful thing to do nothing. Rest is a beautiful gift from God!</p>
+                </div>
+                <!-- img -->
+                 <img src="./img/relax-151841_640.png" alt="hobby">
+            </div>
+
+            <!-- box 3 -->
+            <div class="hobby-box">
+                <!-- text -->
+                <div class="text-overlay">
+                    <h1>Reading</h1>
+                    <p>Books can transport us to different times, places, and even universes.</p>
+                </div>
+                <!-- img -->
+                 <img src="./img/silhouette-3135232_640.png" alt="hobby">
+            </div>
+        </div>
+        <span><i class="fa-solid fa-angles-down" onclick="location.href='./#contact-button'"></i></span>
+    </section>
+    <input type="checkbox" name="show-traveling" id="show-traveling">
+    <!-- traveling img -->
+    <section id="traveling">
+       
+        <h1 class="hobby-heading tr-heading">Traveling</h1>   
+        <input type="radio" id="img-vn" name="img">
+        <input type="radio" id="img-jp" name="img">
+        <input type="radio" id="img-reset" checked="checked" name="img">
+        <div class="check-btn-img default">
+            <label for="img-vn" id="vn">VietNam</label>
+            <label for="img-jp" id="jp">Japan</label>
+            <label for="img-reset" id="all">All</label>     
+        </div>    
+        <div class="check-btn-img responsive-check-btn">
+            <label for="img-vn" id="vn">VN</label>
+            <label for="img-jp" id="jp">JP</label>
+            <label for="img-reset" id="all">All</label>     
+        </div>
+        <div class="tr-box-container">     
+            <img src="https://scontent-itm1-1.xx.fbcdn.net/v/t1.6435-9/171201459_1896705603828136_3929114488943241364_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=7b2446&_nc_ohc=NBLExkSAvLMQ7kNvgGWGmlX&_nc_ht=scontent-itm1-1.xx&oh=00_AYA7A1a3o-X1oaExmdNmVQaXq88AcQq--2krOvS_fle_8g&oe=66DBB5BA" class="vnam"> 
+            <img src="https://scontent-itm1-1.xx.fbcdn.net/v/t1.6435-9/169383337_1896705647161465_2699320878201369973_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=7b2446&_nc_ohc=WoawGNNGZ7YQ7kNvgEYoXW2&_nc_ht=scontent-itm1-1.xx&oh=00_AYA-r4o_zWEKcXs3tGQwJeZ0ilLyEgZxYVoNxmdr4tqh-w&oe=66DB9C08" class="vnam"> 
+            <img src="https://scontent-itm1-1.xx.fbcdn.net/v/t1.6435-9/170785524_1896705517161478_8618108571419067041_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=7b2446&_nc_ohc=HGw2DLGP_OMQ7kNvgF1J3Uu&_nc_ht=scontent-itm1-1.xx&oh=00_AYDFfq6cUY2BFVeMOkylEtFa1YSjz6sYcmiiBZ2bJSLjBg&oe=66DB8CE9" class="vnam">              
+            <img src="https://scontent-itm1-1.xx.fbcdn.net/v/t1.6435-9/171276831_1896705857161444_5893766493720684123_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=7b2446&_nc_ohc=NxjfPQ-7FMcQ7kNvgFHbldi&_nc_ht=scontent-itm1-1.xx&oh=00_AYDSIHqAeAAWhJ9L6ccmivpSUMSzfueoTGDEN1nJ4dDVmg&oe=66DB8C3C" class="vnam">
+            <img src="img/nara.jpg" class="japan">   
+            <img src="img/osaka.jpg" class="japan">
+            <img src="img/ushimado1.jpg" class="japan">    
+            <img src="img/ushimado2.jpg" class="japan">  
+            <video src="img/455240973_8124718810951787_1452546962999275319_n.mp4" preload controls loop class="japan"></video>
+        </div>
+        
+    </section>
+
+    <!-- contact-button -->
+     <section id="contact-button">
+        <!-- heading -->
+        <h1>Have any questions?</h1>
+        <!-- button -->
+         <a href="#contact-form">Contact Me</a>
+     </section>
+    <!-- contact form-->
+     <section id="contact-form">
+        <form action="">
+            <div class="left">
+                <h1 class="left-heading">Message</h1>
+                <div class="left-name">
+                    <label for="name">Name</label>          
+                    <input id="name" type="text" placeholder="Full name">          
+                </div>
+
+                <div class="left-email">
+                    <label for="email">Email</label>          
+                    <input id="email"type="email" placeholder="blabla@gmail.com">          
+                </div>
+
+                <div class="form-img">
+                    <img src="img/—Pngtree—cartoon letter png download_4439322.png" alt="">
+                </div>
+            </div>
+
+            <div class="right">
+                <div class="message">
+                    <label for="">Send a message</label>
+                    <textarea name="message" id="message" rows="5" cols="20" placeholder="Write something..."></textarea>
+                    <button>Send</button>
+                </div>
+            </div>
+        </form>
+     </section>
+
+     <!-- footer-- -->
+      <section id="footer">
+        <div class="footer-container">
+            <!-- social-media -->
+            <div class="social-icon">
+                <a target="_blank" title="Facebook" href="https://www.facebook.com/paddy.sun.7923">
+                    <i class="auth-form__socials-icon fa-brands fa-square-facebook"></i></i>
+                </a>
+                <a target="_blank" title="Instagram" href="https://www.instagram.com/lephat.16/">
+                    <i class="auth-form__socials-icon fa-brands fa-instagram"></i></i>
+                </a>
+                <a target="_blank" title="Google+" href="http://myaccount.google.com">
+                    <i class="auth-form__socials-icon fa-brands fa-google"></i></i>
+                </a>
+            </div>
+        </div>
+
+            <!-- footer-navbar -->
+             <div class="footer-nav">
+                <ul>
+                    <li><a href="#main">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#learning">Learning</a></li>
+                    <li><a href="#hobby">Hobby</a></li>
+                    <li><a href="#contact-button">Contact</a></li> 
+                </ul>
+             </div>
+
+             <div class="footer-bottom">
+                <p>Copyright &copy;2024 Created by <span class="creatted">ファット</span></p>
+             </div>
+      </section>
+</body>
+</html>
